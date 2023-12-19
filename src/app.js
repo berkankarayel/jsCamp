@@ -25,7 +25,6 @@ let konutKredileri = [
   "özel traktör kredisi",
 ];
 
-// burda listeleme yöntemini for döngüsü ile dönüdürürüz
 console.log("</ul>");
 
 for (let i = 0; i < konutKredileri.length; i++) {
