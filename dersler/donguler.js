@@ -1,12 +1,12 @@
-/*
- ! 1 den 10 e kadar yazdır
+
+/* ! 1 den 10 e kadar yazdır */
 for (let i = 1; i < 10; i++) {
   console.log(i);
 }
-*/
+
 
 /* 2 adet bo dizi oluştur sonra tekleri ve çiftleri atayn 
-kodu yaz */
+kodu yaz /*
 
 // Boş dizileri tanımlama
 // let ciftDizi = [];
