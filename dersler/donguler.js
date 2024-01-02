@@ -1,4 +1,4 @@
- // ! 1 den 10 e kadar yazdır
+// ! 1 den 10 e kadar yazdır
 // for (let i = 1; i < 10; i++) {
 //   console.log(i);
 // }
@@ -9,16 +9,15 @@
 //  let ciftDizi = [];
 //  let tekDizi = [];
 
-// // 1'den 10'a kadar olan sayıları değerlendirme
+// 1'den 10'a kadar olan sayıları değerlendirme
 //  for (let i = 1; i <= 10; i++) {
 //   if (i % 2 === 0) {
-// // Çift sayıları "ciftDizi" dizisine ekleme
+// Çift sayıları "ciftDizi" dizisine ekleme
 //      ciftDizi.push(i);
 //    } else {
-// // Tek sayıları "tekDizi" dizisine ekleme
+// Tek sayıları "tekDizi" dizisine ekleme
 //      tekDizi.push(i);
 //    }
-
 
 //  console.log("Çift Sayılar Dizisi:", ciftDizi);
 //   console.log("Tek Sayılar Dizisi:", tekDizi);
@@ -32,10 +31,10 @@
 //  }
 //  console.log("toplamları", toplam);
 
-// // 1 den 10 a kadar sayıları while ile yazdır
-// // break : 8 a kadar gelir 8 den sonrasını keser
-// // contiune: sadece 8 i yazmaz
-// // ! 1 den 10 a kadar sayıları yazdır 8 geldiğimizde döngüden çıkalım
+// 1 den 10 a kadar sayıları while ile yazdır
+// break : 8 a kadar gelir 8 den sonrasını keser
+// contiune: sadece 8 i yazmaz
+// ! 1 den 10 a kadar sayıları yazdır 8 geldiğimizde döngüden çıkalım
 
 //  let sayac = 1;
 
@@ -69,41 +68,41 @@
 
 // //? Asal sayı bulma uygulamasııı
 
-//  let sayi = Number(prompt("lütfen bir sayı giriniz"));
-//  let sonuc = true;
-//  for (let i = 2; i < Math.floor(sayi / 2); i++) {
-//    if (sayi % i == 0) {
-//      sonuc = false;
-//      break;
-//    }
-//  }
-//  if (sonuc == false) {
-//    console.log("sayi asal değildir");
-//  } else {
-//    console.log("sayi asaldir");
-//  }
+let sayi = Number(prompt("lütfen bir sayı giriniz"));
+let sonuc = true;
+for (let i = 2; i < Math.floor(sayi / 2); i++) {
+  if (sayi % i == 0) {
+    sonuc = false;
+    break;
+  }
+}
+if (sonuc == false) {
+  console.log("sayi asal değildir");
+} else {
+  console.log("sayi asaldir");
+}
 
 // //? Faktoriyel bulma
 
-//  let sayi = Number(prompt("lütfen sayi giriniz"));
-//  let carpim = 1;
-//  for (let i = 1; i <= sayi; i++) {
-//    carpim = carpim * i;
-//  }
-//  console.log(carpim);
+let sayi4 = Number(prompt("lütfen sayi giriniz"));
+let carpim = 1;
+for (let i = 1; i <= sayi4; i++) {
+  carpim = carpim * i;
+}
+console.log(carpim);
 
 // //? ARmsstrong sayi
-// let sayi = prompt("lütfen sayi griniz");
-// let toplam = 0;
+let say = prompt("lütfen sayi griniz");
+let toplam = 0;
 
-// for (let i = 0; i < sayi.length; i++) {
-//   sayi.charAt(i);
-//   let rakam = sayi.charAt(i);
-//   toplam += rakam * rakam * rakam;
-// }
+for (let i = 0; i < say.length; i++) {
+  say.charAt(i);
+  let rakam = say.charAt(i);
+  toplam += rakam * rakam * rakam;
+}
 
-// if (Number(sayi) == toplam) {
-//   alert("armstog sayisidir");
-// } else {
-//   alert("armstrong sayisi değildir");
-// }
+if (Number(say) == toplam) {
+  alert("armstog sayisidir");
+} else {
+  alert("armstrong sayisi değildir");
+}
