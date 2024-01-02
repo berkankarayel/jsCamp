@@ -68,7 +68,7 @@ user.username = "berkan karayel"; // bu şekilde değiştirebiliriz
 console.log(user);
 
 /*
- ! DİYALOG KUTULARI 
+ ! DİYALOG KUTULARi
   
  ALERT : uyarı 
  PROMPT : kullancııdan değer al 
