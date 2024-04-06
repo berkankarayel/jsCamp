@@ -36,8 +36,8 @@ let kullaniciUrunIsmi = prompt("Lütfen isim giriniz");
 getFiltreliUrunler(urunler);
 yazdir(filtreliUrunler);
 
-function getFiltreliUrunler(urunler) {
-  urunler.forEach(function (urun) {
+function getFiltreliUrunler(urunler1) {
+  urunler1.forEach(function (urun) {
     if (urun.name.toUpperCase().includes(kullaniciUrunIsmi.toUpperCase(), 0)) {
       filtreliUrunler.push(urun);
     }
