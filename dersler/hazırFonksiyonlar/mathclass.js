@@ -17,26 +17,26 @@
 // console.log(window);
 
 let a = 3.5;
-let b = -12;
+let b = -12.3;
 
-// console.log(Math.floor(a));
-// console.log(Math.ceil(a));
-// console.log(Math.round(a));
+console.log(Math.floor(a));
+console.log(Math.ceil(a));
+console.log(Math.round(a));
 
-// console.log(Math.max(1,2,3,4,50));
-// console.log(Math.min(10,0,5));
-// console.log(Math.abs(b));
+console.log(Math.max(1, 2, 3, 4, 50));
+console.log(Math.min(10, 0, 5));
+console.log(Math.abs(b));
 
-// console.log(Math.sqrt(169));
-// console.log(Math.pow(5,4));
+console.log(Math.sqrt(169));
+console.log(Math.pow(5, 4));
 
-// console.log(Math.PI);
+console.log(Math.PI);
 
-// let randomDeger = Math.random();
-// let sonuc = randomDeger*100000;
-// let sonucYuvarla = Math.floor(sonuc);
+let randomDeger = Math.random();
+let sonuc = randomDeger * 100000;
+let sonucYuvarla = Math.floor(sonuc);
 
-// console.log(randomDeger);
-// console.log(sonuc);
-// console.log(sonucYuvarla);
-// console.log(Math.floor(Math.random()*100));
+console.log(randomDeger);
+console.log(sonuc);
+console.log(sonucYuvarla);
+console.log(Math.floor(Math.random() * 100));
