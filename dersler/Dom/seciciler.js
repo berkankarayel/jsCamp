@@ -4,23 +4,22 @@
 
 // id : unique dir yani eşssizdir.
 
-// getElementById : id ye göre elementi seçme
+//! getElementById : id ye göre elementi seçme
 
 const button = document.getElementById("todoAddButton");
 console.log(button);
 console.log(button.id);
 console.log(button.getAttribute("id"));
+
+// console.log(button.classList[2]);
 console.log(button.className);
-console.log(button.getAttribute("class"));
+const classList = button.classList;
+const classNames = [];
 
-// const classListesi = button.classList[3];
-const classListesi = button.classList;
-
-classListesi.forEach(function (className) {
-  console.log(className);
+classList.forEach(function (className) {
+  classNames.push(className);
 });
-
-// console.log(classListesi);
+console.log(classNames[2]);
 
 let buttonText = button.textContent; // html etiketlerini algılayamaz
 let buttonText2 = button.innerHTML; // yukarıdakindne farklı html kodları varsa onları html olarak algılar
@@ -28,16 +27,18 @@ console.log(buttonText);
 console.log(buttonText2);
 
 // Classs İsmine göre yakalama
-// getElementByClass: kullanılır
+//! getElementByClass: kullanılır
 
-const todoList = document.getElementsByClassName("card-body");
-console.log(todoList.textContent);
+const todo = Array.from(document.getElementsByClassName("card-body"));
+todo.forEach(function (todoo) {
+  console.log(todoo.textContent);
+});
 
 // etiket ismine göre yakalama
 
 // GetElementByTagName("")
 
-const form = document.getElementsByTagName("from");
+const form = document.getElementsByTagName("form");
 console.log(form.id);
 
 // bir metod var 3 ünüde yaptığı işi yapıyor
@@ -48,3 +49,9 @@ const clearButton = document.querySelector("#todoName"); // idlerde # koyıyıya
 console.log(clearButton);
 
 // classlarda nokta koyuyuyoruz
+const todoListt = Array.from(document.querySelectorAll("li:nth-child(odd"));
+
+todoListt.forEach(function (todo) {
+  todo.style.backgroundColor = "ightgrey";
+});
+console.log(todoListt);
