@@ -15,11 +15,9 @@
       crossorigin="anonymous"
     />
 
-    <title>İnput Eventlari</title>
+    <title>Style Özelliği</title>
   </head>
-</html>
-
-<body>
+  <body>
     <div class="container">
       <div class="row">
         <div class="card w-100 mt-3">
@@ -27,7 +25,7 @@
             <h5 class="card-title">Todo List Sayfası</h5>
           </div>
           <div class="card-body">
-            <form id="todoAddForm" class="mt-2">
+            <form id="todoAddForm mt-2">
               <input
                 type="text"
                 class="form-control mt-2"
@@ -44,8 +42,6 @@
                 Todo Ekleyin
               </button>
             </form>
-
-            <hr />
           </div>
 
           <hr />
@@ -63,16 +59,33 @@
             </form>
 
             <ul class="list-group">
-              <!--
-                        <li class="list-group-item d-flex justify-content-between">Todo 1
-                            <a href="#" class="delete-item">
-                                <i class="fa fa-remove"></i>
-                            </a>
-                        </li>
-                    -->
+              <li class="list-group-item d-flex justify-content-between">
+                Todo 1
+                <a href="#" class="delete-item">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                Todo 2
+                <a href="#" class="delete-item">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                Todo 3
+                <a href="#" class="delete-item">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                Todo 4
+                <a href="#" class="delete-item">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
             </ul>
 
-            <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3"
+            <a href="#" id="todoClearButton" class="btn btn-primary btn-sm mt-3"
               >Tüm Todoları Temizle</a
             >
           </div>
@@ -95,6 +108,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="seciciler.js"></script>
+    <script src="style.js"></script>
   </body>
 </html>
