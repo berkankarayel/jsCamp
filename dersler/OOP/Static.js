@@ -8,26 +8,29 @@ class StringUtil {
   static getCharacterLength() {}
 }
 
-// class Insan{
+class Insan {
+  static languagesCount = 10;
 
-//     static languagesCount=10;
+  constructor(firstName, lastName, salary) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.salary = salary;
+  }
 
-//     constructor(firstName , lastName, salary){
-//         this.firstName = firstName;
-//         this.lastName=lastName;
-//         this.salary = salary;
-//     }
+  writeInfo() {
+    console.log(
+      this.firstName,
+      this.lastName,
+      this.salary,
+      this.languagesCount
+    );
+  }
+}
 
-//     writeInfo(){
-//         console.log(this.firstName,this.lastName,
-//             this.salary,this.languagesCount)
-//     }
-// }
+const insan1 = new Insan("Enes", "Bayram", "10000");
+insan1.writeInfo();
 
-// const insan1 = new Insan("Enes","Bayram","10000");
-// insan1.writeInfo();
-
-// console.log(Insan.languagesCount);
+console.log(Insan.languagesCount);
 
 class Matematik {
   topla(a, b) {
